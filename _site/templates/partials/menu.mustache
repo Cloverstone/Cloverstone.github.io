@@ -1,0 +1,18 @@
+<div class="collapse navbar-collapse navbar-main-collapse">
+  <ul class="nav navbar-nav">
+  {{#menu}}
+    {{^hide}}
+    <li{{#children.0}} class="dropdown"{{/children.0}}>
+      <a href="{{link}}" {{#children.0}}class="dropdown-toggle" data-toggle="dropdown"{{/children.0}}>{{name}}</a>
+      {{#children.0}}
+      <ul class="dropdown-menu" role="menu">
+        {{#children}}
+        <li><a tab-index="-1" href="{{link}}">{{name}}</a></li>
+        {{/children}}
+      </ul>       
+      {{/children.0}}
+    </li>
+    {{/hide}}
+  {{/menu}}
+  </ul>
+</div>

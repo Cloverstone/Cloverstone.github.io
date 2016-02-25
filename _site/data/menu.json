@@ -1,0 +1,19 @@
+[
+	{
+		"name": "Home", 
+		"link": "./"
+	},{
+		"name": "Projects", 
+		"link": "./projects"
+	},{
+		"name": "Football", 
+		"link": "./football",
+		"hide": true,
+		"children": [
+			{
+					"name": "Home", 
+					"link": "./index.html"
+			}
+		]
+	}
+]
