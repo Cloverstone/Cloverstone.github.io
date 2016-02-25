@@ -1,3 +1,7 @@
 {
-	"title": "Projects"
+	"title": "Projects",
+	"projects": [
+		{"description": "This entire website is built on a custom framework that is intended to make creating web applications fast, simple and reliable. I call the framework [Graphene](http://graphene.adamsmallcomb.com)."},
+		{"description": "second section"}
+	]
 }
