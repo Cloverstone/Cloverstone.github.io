@@ -1,0 +1,7 @@
+{
+	"title": "Projects",
+	"widgets":[
+		[{"title":"This is the title","text":"<p>Here is some text</p>","widgetType":"content"}],
+		[{"title":"","url":"http://www.binghamton.edu/photos/index.php/feed/","count":5,"widgetType":"rss"}]
+	]
+}
