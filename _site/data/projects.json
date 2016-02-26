@@ -3,5 +3,9 @@
 	"projects": [
 		{"description": "This entire website is built on a custom framework that is intended to make creating web applications fast, simple and reliable. I call the framework [Graphene](http://graphene.adamsmallcomb.com)."},
 		{"description": "second section"}
-	]
+	],
+	"fetch":{
+    "host": "cberry.io",
+    "path": "/d/563175329c58748ec57f5730"
+	}
 }
