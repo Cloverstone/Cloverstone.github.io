@@ -9,7 +9,7 @@
 <meta name="description" content="">
 <meta name="author" content="Adam Smallcomb">
 <link rel="stylesheet" type="text/css"  href="assets/css/style.css">
-<link rel='stylesheet' type='text/css' href='http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css'>
+<link rel='stylesheet' type='text/css' href='//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css'>
 <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
 <body class="has-navbar-fixed-top page-services has-highlighted" name="">
@@ -17,12 +17,12 @@
 	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
-<!-- 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
-				</button> -->
+				</button>
 				<a class="navbar-brand" href="{{menu.0.link}}">
 					ADAM<span style="color:#888">SMALLCOMB</span>
 				</a>
@@ -30,18 +30,15 @@
 			{{>menu}}
 		</div>
 	</nav>
-
-	<!-- Main Conent -->
 	<section class="wrapper-sm">
 		<div class="container">
 			<div class="row">
-			<div id="content">
-				{{>content}}
+				<div id="content">
+					{{>content}}
+				</div>
 			</div>
-			</div><!-- /.row -->
-		</div><!-- /.container -->
+		</div>
 	</section>
-
 	{{>footer}}
 </body>
 </html>
