@@ -1,18 +1,18 @@
 [
 	{
 		"name": "Home", 
-		"link": "./"
+		"link": "./index.html"
 	},{
 		"name": "Projects", 
-		"link": "./projects"
+		"link": "./projects.html"
 	},{
 		"name": "Football", 
 		"link": "./football",
 		"hide": true,
 		"children": [
 			{
-					"name": "Home", 
-					"link": "./index.html"
+				"name": "Home", 
+				"link": "./index.html"
 			}
 		]
 	}
