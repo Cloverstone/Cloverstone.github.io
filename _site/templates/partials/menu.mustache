@@ -1,6 +1,6 @@
 <div class="collapse navbar-collapse navbar-main-collapse">
   <ul class="nav navbar-nav">
-  {{#menu}}
+  {{#menu.items}}
     {{^hide}}
     <li{{#children.0}} class="dropdown"{{/children.0}}>
       <a href="{{link}}" {{#children.0}}class="dropdown-toggle" data-toggle="dropdown"{{/children.0}}>{{name}}</a>
@@ -13,6 +13,6 @@
       {{/children.0}}
     </li>
     {{/hide}}
-  {{/menu}}
+  {{/menu.items}}
   </ul>
 </div>

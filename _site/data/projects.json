@@ -1,6 +1,6 @@
 {
-	"title": "Projects",,
-	"description": "These are some projects Adam Smallcomb has worked on"
+	"title": "Projects",
+	"description": "These are some projects Adam Smallcomb has worked on",
 	"projects": [
 		{"description": "This entire website is built on a custom framework that is intended to make creating web applications fast, simple and reliable. I call the framework [Graphene](http://graphene.adamsmallcomb.com)."},
 		{"description": "second section"}
